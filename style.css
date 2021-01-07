@@ -1,33 +1,41 @@
 html {
-  background-color: #feeafa;
+  background-color: #ccffff;
   color: #22223b;
+  font-family: 'Lobster', cursive;
 }
 
+
+
 header {
-  font-family: "Sofia";
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 2rem;
+  text-transform: lowercase;
 }
 
 h2 {
-  font-family: "Sofia";
+  /* font-family: "Sofia"; */
+  font-family: 'Redressed', cursive;
 }
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 1rem;
+  border: 1px solid saddlebrown;
+  margin-bottom: 10px;
 }
 
 img {
   max-width: 300px;
   max-height: 300px;
   border: solid;
+  border-radius: 30px;
   margin: 2rem;
 }
 
 .method {
-  margin: 2rem;
-  margin-top: 5rem;
+  /* margin: 2rem;
+  margin-top: 5rem; */
   max-width: 50%;
 }
